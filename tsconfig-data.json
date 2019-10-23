@@ -448,15 +448,15 @@
     "defaultValue": "false",
     "description": "Emit a single file with source maps instead of having a separate file.",
     "experimental": false,
-    "extendedDescription": "",
+    "extendedDescription": "The `--inlineSourceMap` option will include the debugging source mapping directly in the generated `*.js` file. If the `--inlineSources` option is **not** defined, then the source files must still be included. When this option is enabled alongside `--inlineSources`, then both the mappings and the source code are all included in the generated file. This flag does the opposite of the `--sourceMap` flag which will generate stand alone `*.map` files. See the `--inlineSources` and `--sourceMap` flags for more information on source mapping in TypeScript.",
     "refLinks": [
       {
-        "title": "",
-        "link": ""
+        "title": "Reddit - Inline source code in source maps",
+        "link": "https://www.reddit.com/r/typescript/comments/95r3k8/inline_source_code_in_source_maps/"
       },
       {
-        "title": "",
-        "link": ""
+        "title": "StackOverflow - Difference between inlineSourceMap & inlineSources typescript compiler options",
+        "link": "https://stackoverflow.com/questions/43291677/difference-between-inlinesourcemap-inlinesources-typescript-compiler-options"
       }
     ]
   },
