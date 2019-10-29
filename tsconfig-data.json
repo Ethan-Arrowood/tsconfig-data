@@ -491,17 +491,17 @@
     "cliFlag": "--isolatedModules",
     "type": "boolean",
     "defaultValue": "false",
-    "description": "Transpile each file as a separate module (similar to \"ts.transpileModule\").",
+    "description": "Perform additional checks to ensure that separate compilation (such as with transpileModule or @babel/plugin-transform-typescript) would be safe.",
     "experimental": false,
-    "extendedDescription": "",
+    "extendedDescription": "This option will make sure that TypeScript can catch some constructs that are missed when using a separate compiler (such as Babel). When using Babel 7+ some of these missing constructs include: namespaces, bracket style type-assertion, enum merging, and legacy-style import/export syntax. This option ensures that these things are not missed.",
     "refLinks": [
       {
-        "title": "",
-        "link": ""
+        "title": "TypeScript Blog - TypeScript and Babel 7",
+        "link": "https://devblogs.microsoft.com/typescript/typescript-and-babel-7/"
       },
       {
-        "title": "",
-        "link": ""
+        "title": "Babel Docs - @babel/plugin-transform-typescript",
+        "link": "https://babeljs.io/docs/en/babel-plugin-transform-typescript"
       }
     ]
   },
