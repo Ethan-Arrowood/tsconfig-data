@@ -14,6 +14,7 @@ This is a command line interface only option. It will display a shorter list of 
 ---
 
 <!-- references -->
+## References
 
 ---
 

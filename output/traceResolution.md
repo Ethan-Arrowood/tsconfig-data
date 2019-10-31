@@ -14,6 +14,7 @@ Report module resolution log messages.
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

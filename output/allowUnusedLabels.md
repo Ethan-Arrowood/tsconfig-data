@@ -19,6 +19,7 @@ loop: while(x < 10) {
 ---
 
 <!-- references -->
+## References
 - [TypeScript 1.8 - Unused labels](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-8.html#unused-labels)
 - [MDN web docs - label](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label)
 ---

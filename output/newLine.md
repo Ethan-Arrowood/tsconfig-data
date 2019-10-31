@@ -14,6 +14,7 @@ Use the specified end of line sequence to be used when emitting files: "crlf" (w
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

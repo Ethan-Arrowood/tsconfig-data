@@ -14,6 +14,7 @@ With this option enabled, all TypeScript code in the project will be parsed in E
 ---
 
 <!-- references -->
+## References
 - [What Does "use strict" do in JavaScript?](https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it)
 - [ECMAScript 5 Strict Mode, JSON, and More - Strict Mode](https://johnresig.com/blog/ecmascript-5-strict-mode-json-and-more/)
 - [The --strict Compiler Option in TypeScript](https://mariusschulz.com/blog/the-strict-compiler-option-in-typescript)

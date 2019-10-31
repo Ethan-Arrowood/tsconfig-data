@@ -14,6 +14,7 @@ Determine how modules get resolved. Either "Node" for Node.js/io.js style resolu
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

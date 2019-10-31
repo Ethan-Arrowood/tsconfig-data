@@ -15,6 +15,7 @@ The documentation linked in the references section goes into further details on 
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - Declaration Files - Publishing](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html)
 - []()
 ---

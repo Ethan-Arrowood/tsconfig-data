@@ -14,6 +14,7 @@ This option will make sure that TypeScript can catch some constructs that are mi
 ---
 
 <!-- references -->
+## References
 - [TypeScript Blog - TypeScript and Babel 7](https://devblogs.microsoft.com/typescript/typescript-and-babel-7/)
 - [Babel Docs - @babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript)
 ---

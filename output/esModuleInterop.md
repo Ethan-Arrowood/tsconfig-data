@@ -14,6 +14,7 @@ The `--esModuleInterop` flag enables more babel like import styles. Technically,
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - TypeScript 2.7](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html#support-for-import-d-from-cjs-from-commonjs-modules-with---esmoduleinterop)
 - [StackOverflow esModuleInterop flag](https://stackoverflow.com/questions/48785451/is-there-a-way-to-use-esmoduleinterop-in-tsconfig-as-opposed-to-it-being-a-fla)
 - [Great Import Schism: TypeScript confusion around imports explained](https://itnext.io/great-import-schism-typescript-confusion-around-imports-explained-d512fc6769c2)

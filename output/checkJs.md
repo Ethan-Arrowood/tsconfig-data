@@ -14,6 +14,7 @@ This option must be used in conjunction with `--allowJs`. While `--allowJs` does
 ---
 
 <!-- references -->
+## References
 - [Type Checking JavaScript Files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)
 - [Type-Checking JavaScript Files with --checkJs in TypeScript](https://mariusschulz.com/blog/type-checking-javascript-files-with-checkjs-in-typescript)
 ---

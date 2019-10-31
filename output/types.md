@@ -14,6 +14,7 @@ List of names of type definitions to include. See [@types, --typeRoots and --typ
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

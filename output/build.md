@@ -14,6 +14,7 @@ The `--build` flag builds your TypeScript project through Project References all
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - Project References](https://www.typescriptlang.org/docs/handbook/project-references.html)
 ---
 

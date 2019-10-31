@@ -14,6 +14,7 @@ The TypeScript compiler will only load a maximum of 20MB non-typescript files in
 ---
 
 <!-- references -->
+## References
 - [TypeScript GitHub Issue #7444 that introduced this option.](https://github.com/Microsoft/TypeScript/issues/7444#issuecomment-197064666)
 ---
 

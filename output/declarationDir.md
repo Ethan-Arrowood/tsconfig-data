@@ -14,6 +14,7 @@ Specify a directory output for declaration (.d.ts) files. This must be used in c
 ---
 
 <!-- references -->
+## References
 
 ---
 

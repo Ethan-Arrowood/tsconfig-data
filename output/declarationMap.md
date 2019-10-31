@@ -14,6 +14,7 @@ This compiler option must be enabled along side `--declaration` and will cause t
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - TypeScript 2.9 - New --declarationMap](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-9.html)
 ---
 

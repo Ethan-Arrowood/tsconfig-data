@@ -14,6 +14,7 @@ Specify the JSX factory function to use when targeting react JSX emit, e.g. Reac
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

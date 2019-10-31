@@ -14,6 +14,7 @@ The maximum dependency depth to search under node_modules and load JavaScript fi
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

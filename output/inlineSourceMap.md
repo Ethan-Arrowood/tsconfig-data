@@ -14,6 +14,7 @@ The `--inlineSourceMap` option will include the debugging source mapping directl
 ---
 
 <!-- references -->
+## References
 - [Reddit - Inline source code in source maps](https://www.reddit.com/r/typescript/comments/95r3k8/inline_source_code_in_source_maps/)
 - [StackOverflow - Difference between inlineSourceMap & inlineSources typescript compiler options](https://stackoverflow.com/questions/43291677/difference-between-inlinesourcemap-inlinesources-typescript-compiler-options)
 ---

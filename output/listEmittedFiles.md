@@ -14,6 +14,7 @@ Print names of generated files part of the compilation.
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

@@ -14,6 +14,7 @@ This option is included in TypeScript for emitting certain types of metadata for
 ---
 
 <!-- references -->
+## References
 - [Emit serialized design-time type metadata for decorators](https://github.com/Microsoft/TypeScript/issues/2577)
 - [Reflect Metadata](https://github.com/rbuckton/reflect-metadata)
 ---

@@ -15,6 +15,7 @@ A great example of this is the popular `React` library. `React` ships a built ve
 ---
 
 <!-- references -->
+## References
 - [Getting started with TypeScript and React](https://javascriptplayground.com/react-typescript/)
 - [Do I need to enable allowSyntheticDefaultImports if esModuleInterop is true?](https://stackoverflow.com/questions/52576203/do-i-ever-need-explicit-allowsyntheticdefaultimports-if-esmoduleinterop-is-true)
 - [Default import/export example](https://github.com/Microsoft/TypeScript/issues/7185#issuecomment-421632656)

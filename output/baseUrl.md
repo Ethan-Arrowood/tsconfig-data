@@ -14,6 +14,7 @@ When using Asynchronous Module Definitions, it is common practice to use a `base
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - Module Resolution - Base URL](https://www.typescriptlang.org/docs/handbook/module-resolution.html#base-url)
 - [RequireJS - Why AMD?](https://requirejs.org/docs/whyamd.html)
 - [RequireJS API - Configuration Options - baseUrl](https://requirejs.org/docs/api.html#config-baseUrl)

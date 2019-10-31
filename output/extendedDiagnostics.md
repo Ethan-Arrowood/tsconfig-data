@@ -14,6 +14,7 @@ This option displays various diagnostic information about a build including timi
 ---
 
 <!-- references -->
+## References
 
 ---
 

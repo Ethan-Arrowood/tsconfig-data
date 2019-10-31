@@ -14,6 +14,7 @@ The `--inlineSources` flag will append the TypeScript source code to the end of 
 ---
 
 <!-- references -->
+## References
 - [Tice Hurst - Debugging - Using Source Maps](https://ticehurst.com/jsdocs/articles/debugging/sourcemaps.html)
 - [StackOverflow - Difference between inlineSourceMap & inlineSources typescript compiler options](https://stackoverflow.com/questions/43291677/difference-between-inlinesourcemap-inlinesources-typescript-compiler-options)
 ---

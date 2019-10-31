@@ -14,6 +14,7 @@ The `allowJs` compiler option enables the TypeScript compiler to additionally pr
 ---
 
 <!-- references -->
+## References
 - [Medium - Incrementally Migrating JavaScrip to TypeScript](https://medium.com/@clayallsopp/incrementally-migrating-javascript-to-typescript-565020e49c88)
 - [TypeScript Handbook - Migrating from JavaScript](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
 - [Stack Overflow -  How does TypeScript allowJs work?](https://stackoverflow.com/questions/40089419/how-does-typescript-allowjs-work)

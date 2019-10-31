@@ -14,6 +14,7 @@ Run the compiler in watch mode. Watch input files and trigger recompilation on c
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

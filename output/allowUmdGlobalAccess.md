@@ -14,6 +14,7 @@ Allow accessing UMD globals from modules.
 ---
 
 <!-- references -->
+## References
 - [Announcing TypeScript 3.5 - The --allowUmdGlobalAccess flag](https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/#the---allowumdglobalaccess-flag)
 ---
 

@@ -18,6 +18,7 @@ Use this flag when developing with the Project References pattern detailed in th
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - Project References](https://www.typescriptlang.org/docs/handbook/project-references.html)
 ---
 

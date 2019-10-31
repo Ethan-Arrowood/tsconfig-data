@@ -24,6 +24,7 @@ const fn = () => {
 ---
 
 <!-- references -->
+## References
 - [TypeScript 1.8 - Unreachable code](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-8.html#unreachable-code)
 ---
 

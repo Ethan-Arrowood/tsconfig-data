@@ -14,6 +14,7 @@ Report errors for fallthrough cases in switch statement.
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

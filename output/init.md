@@ -14,6 +14,7 @@ This option will generated a default tsconfig.json file with the following prope
 ---
 
 <!-- references -->
+## References
 
 ---
 

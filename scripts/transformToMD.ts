@@ -38,7 +38,7 @@ async function main () {
             await fs.promises.appendFile(out, `${optionData.extendedDescription}\n`)
             break
           case 'references':
-            await fs.promises.appendFile(out, `${optionData.refLinks.map(ref => `- [${ref.title}](${ref.link})`).join('\n')}`)
+            await fs.promises.appendFile(out, `## References\n${optionData.refLinks.map(ref => `- [${ref.title}](${ref.link})`).join('\n')}`)
             break
           default:
             break

@@ -14,6 +14,7 @@ DEPRECATED. Use --jsxFactory instead.<br/>Specifies the object invoked for creat
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

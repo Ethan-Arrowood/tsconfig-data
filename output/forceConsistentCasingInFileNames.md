@@ -14,6 +14,7 @@ Thie option will detect case-sensitive import issues at compile time. According 
 ---
 
 <!-- references -->
+## References
 - [Case Sensitive Import Statements in Typescript - Brian De Sousa](https://briandesousa.net/2019/02/08/case-sensitive-import-statements-in-typescript/)
 ---
 

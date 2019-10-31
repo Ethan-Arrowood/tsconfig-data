@@ -14,6 +14,7 @@ Introduced in TypeScript 3.4, the `--incremental` property saves information abo
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - TypeScript 3.4](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html)
 ---
 

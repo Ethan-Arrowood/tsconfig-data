@@ -14,6 +14,7 @@ Adds the "\uFEFF" to the start of all output files. This mark is called a Byte O
 ---
 
 <!-- references -->
+## References
 - [Byte Order Mark](https://simple.wikipedia.org/wiki/Byte_order_mark)
 - [sys.ts code reference](https://github.com/microsoft/TypeScript/blob/70b7bd5a1b8c3bc1ba7c644b37412368607706e6/src/compiler/sys.ts#L639-L641)
 ---

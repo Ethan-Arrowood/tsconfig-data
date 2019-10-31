@@ -14,6 +14,7 @@ This flag will enable the use of the decorators within your TypeScript project. 
 ---
 
 <!-- references -->
+## References
 - [TC39 - Decorators Proposal](https://github.com/tc39/proposal-decorators)
 - [TypeScript Handbook - Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
 ---

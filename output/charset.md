@@ -14,6 +14,7 @@ The average TypeScript developer shouldn't worry about this option; most things 
 ---
 
 <!-- references -->
+## References
 - [HTML Charset](https://www.w3schools.com/html/html_charset.asp)
 ---
 

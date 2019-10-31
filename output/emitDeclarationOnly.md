@@ -14,6 +14,7 @@ This option will not emit JavaScript files from the build output. It will only e
 ---
 
 <!-- references -->
+## References
 - [TypeScript - Announcing TypeScrip 2.8.2 - Declaration-only emit](https://devblogs.microsoft.com/typescript/announcing-typescript-2-8-2/#declaration-only-emit)
 ---
 

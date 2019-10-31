@@ -14,6 +14,7 @@ Not much information exists for this option. It should output detailed informati
 ---
 
 <!-- references -->
+## References
 
 ---
 

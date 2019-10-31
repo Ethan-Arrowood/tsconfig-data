@@ -14,6 +14,7 @@ DEPRECATED. Use --outFile instead.
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

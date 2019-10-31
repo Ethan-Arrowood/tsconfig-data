@@ -14,6 +14,7 @@ TypeScript automatically generates something called _helper_ functions for parad
 ---
 
 <!-- references -->
+## References
 - [External Helpers Library in TypeScript](https://mariusschulz.com/blog/external-helpers-library-in-typescript)
 - [tslib GitHub repository](https://github.com/microsoft/tslib)
 ---

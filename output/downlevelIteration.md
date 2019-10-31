@@ -14,6 +14,7 @@ The `downlevelIteration` flag enables full support for generators and the Iterat
 ---
 
 <!-- references -->
+## References
 - [TypeScript Handbook - TypeScript 2.3 - New --downlevelIteration](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-3.html#new---downleveliteration)
 - [Downlevel Iteration for ES3/ES5 in TypeScript](https://mariusschulz.com/blog/downlevel-iteration-for-es3-es5-in-typescript)
 - [MDN - Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)

@@ -14,6 +14,7 @@ List of folders to include type definitions from. See [@types, --typeRoots and -
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---

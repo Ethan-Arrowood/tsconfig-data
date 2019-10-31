@@ -14,6 +14,7 @@ Keep outdated console output in watch mode instead of clearing the screen
 ---
 
 <!-- references -->
+## References
 - []()
 - []()
 ---
