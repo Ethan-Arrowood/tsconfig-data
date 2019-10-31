@@ -1,0 +1,20 @@
+<!-- Important! Do not modify comment blocks. They are necessary for the transformer to work properly -->
+
+<!-- title -->
+# typeRoots
+
+<!-- shortDescription -->
+List of folders to include type definitions from. See [@types, --typeRoots and --types](./tsconfig.json.md#types-typeroots-and-types) for more details.
+---
+
+<!-- extendedDescription -->
+
+---
+
+<!-- references -->
+- []()
+- []()
+---
+
+<!-- footer -->
+The data on this page is available as a JSON object. Edits can be made in either JSON or here in Markdown.
