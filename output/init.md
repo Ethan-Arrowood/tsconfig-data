@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Initializes a TypeScript project and creates a tsconfig.json file.
+
 ---
 
 <!-- extendedDescription -->
 This option will generated a default tsconfig.json file with the following properties configured: . If TypeScript isn't installed globally on your development environment, use `npx typescript --init` instead.
+
 ---
 
 <!-- references -->

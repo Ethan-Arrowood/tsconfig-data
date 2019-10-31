@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Use the specified end of line sequence to be used when emitting files: "crlf" (windows) or "lf" (unix)."
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Emit a UTF-8 Byte Order Mark (BOM) in the beginning of output files.
+
 ---
 
 <!-- extendedDescription -->
 Adds the "\uFEFF" to the start of all output files. This mark is called a Byte Order Mark (BOM) and is an adstract character used to declare and recognize Unicode encoding of a text file. Node.js specifically detecs the "\uFEFF" at the start of the string and replaces it with the actual BOM from the specified encoding.
+
 ---
 
 <!-- references -->

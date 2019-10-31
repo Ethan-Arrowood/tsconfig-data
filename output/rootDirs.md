@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 List of <i>root</i> folders whose combined content represent the structure of the project at runtime. See [Module Resolution documentation](./Module Resolution.md#virtual-directories-with-rootdirs) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

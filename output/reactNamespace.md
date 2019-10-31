@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 DEPRECATED. Use --jsxFactory instead.<br/>Specifies the object invoked for createElement and __spread when targeting "react" JSX emit.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

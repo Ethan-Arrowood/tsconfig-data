@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Stylize errors and messages using color and context.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

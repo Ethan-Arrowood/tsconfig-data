@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 DEPRECATED. Use --skipLibCheck instead.<br/>Skip type checking of [default library declaration files](./Triple-Slash Directives.md#-reference-no-default-libtrue).
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

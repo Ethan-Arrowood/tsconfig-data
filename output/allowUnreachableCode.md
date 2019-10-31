@@ -5,6 +5,7 @@
 
 <!-- shortDescription -->
 Do not report errors on unreachable code.
+
 ---
 
 <!-- extendedDescription -->
@@ -19,6 +20,7 @@ const fn = () => {
   return 'totally unreachable'
 }
 ```
+
 ---
 
 <!-- references -->

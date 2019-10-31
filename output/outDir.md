@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Redirect output structure to the directory.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

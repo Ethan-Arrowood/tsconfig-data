@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Run the compiler in watch mode. Watch input files and trigger recompilation on changes. The implementation of watching files and directories can be configured using environment variable. See [configuring watch](./Configuring%20Watch.md) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

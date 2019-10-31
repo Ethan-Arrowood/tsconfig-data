@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Perform additional checks to ensure that separate compilation (such as with transpileModule or @babel/plugin-transform-typescript) would be safe.
+
 ---
 
 <!-- extendedDescription -->
 This option will make sure that TypeScript can catch some constructs that are missed when using a separate compiler (such as Babel). When using Babel 7+ some of these missing constructs include: namespaces, bracket style type-assertion, enum merging, and legacy-style import/export syntax. This option ensures that these things are not missed.
+
 ---
 
 <!-- references -->

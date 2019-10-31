@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 The maximum dependency depth to search under node_modules and load JavaScript files. Only applicable with --allowJs.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

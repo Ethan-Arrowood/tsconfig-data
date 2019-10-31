@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Keep outdated console output in watch mode instead of clearing the screen
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 The character set of the input files.
+
 ---
 
 <!-- extendedDescription -->
 The average TypeScript developer shouldn't worry about this option; most things will be in UTF-8. Some other recognizable charsets include: ASCII, ANSI, and ISO-8859-1.
+
 ---
 
 <!-- references -->

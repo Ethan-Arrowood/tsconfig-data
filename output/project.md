@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Compile a project given a valid configuration file.<br/>The argument can be a file path to a valid JSON configuration file, or a directory path to a directory containing a tsconfig.json file.<br/>See [tsconfig.json](./tsconfig.json.md) documentation for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

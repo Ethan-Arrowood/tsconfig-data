@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Determine how modules get resolved. Either "Node" for Node.js/io.js style resolution, or "Classic". See [Module Resolution documentation](./Module Resolution.md) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

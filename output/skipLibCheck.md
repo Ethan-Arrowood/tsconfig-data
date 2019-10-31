@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Skip type checking of all declaration files (*.d.ts).
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

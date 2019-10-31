@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Report errors on unused locals.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

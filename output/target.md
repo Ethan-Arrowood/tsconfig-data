@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Specify ECMAScript target version: "ES3" (default), "ES5", "ES6"/"ES2015", "ES2016", "ES2017" or "ESNext". <br/><br/> Note: "ESNext" targets latest supported [ES proposed features](https://github.com/tc39/proposals).
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

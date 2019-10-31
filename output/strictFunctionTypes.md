@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Disable bivariant parameter checking for function types.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

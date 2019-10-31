@@ -5,6 +5,7 @@
 
 <!-- shortDescription -->
 Do not report errors on unused labels.
+
 ---
 
 <!-- extendedDescription -->
@@ -14,6 +15,7 @@ loop: while(x < 10) {
   x++
 }
 ```
+
 ---
 
 <!-- references -->

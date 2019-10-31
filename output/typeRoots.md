@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 List of folders to include type definitions from. See [@types, --typeRoots and --types](./tsconfig.json.md#types-typeroots-and-types) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

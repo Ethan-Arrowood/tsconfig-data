@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Emit design-type metadata for decorated declarations in source.
+
 ---
 
 <!-- extendedDescription -->
 This option is included in TypeScript for emitting certain types of metadata for declarations that have decorators. Enable this with the `--experimentalDecorators` flag or a `--target` version that supports the decorator protocol. This metadata is best used with the `reflect-metadata` library which adds a polyfill for an experimental metadata API. This option is experimental until metadata is adopted in ECMAScript standard.
+
 ---
 
 <!-- references -->

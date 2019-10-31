@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Emit a single file with source maps instead of having a separate file.
+
 ---
 
 <!-- extendedDescription -->
 The `--inlineSourceMap` option will include the debugging source mapping directly in the generated `*.js` file. If the `--inlineSources` option is **not** defined, then the source files must still be included. When this option is enabled alongside `--inlineSources`, then both the mappings and the source code are all included in the generated file. This flag does the opposite of the `--sourceMap` flag which will generate stand alone `*.map` files. See the `--inlineSources` and `--sourceMap` flags for more information on source mapping in TypeScript.
+
 ---
 
 <!-- references -->

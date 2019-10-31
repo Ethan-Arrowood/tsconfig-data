@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Remove all comments except copy-right header comments beginning with /*!
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

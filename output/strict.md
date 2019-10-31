@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Enable all strict type checking options. <br/>Enabling --strict enables --noImplicitAny, --noImplicitThis, --alwaysStrict, --strictBindCallApply, --strictNullChecks, --strictFunctionTypes and --strictPropertyInitialization.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Disable size limitation on JavaScript project.
+
 ---
 
 <!-- extendedDescription -->
 The TypeScript compiler will only load a maximum of 20MB non-typescript files into a project. A `Too many JavaScript files in the project.` error will pop up and recommend either using the `exclude` setting or this `disableSizeLimit` compiler option setting.
+
 ---
 
 <!-- references -->

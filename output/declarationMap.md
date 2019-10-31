@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Generates a sourcemap for each corresponding '.d.ts' file.
+
 ---
 
 <!-- extendedDescription -->
 This compiler option must be enabled along side `--declaration` and will cause the compiler to emit `.d.ts.map` files alongside the output of the `.d.ts` files. This is useful for developer tooling integration such as the go-to-definition feature in VS Code.
+
 ---
 
 <!-- references -->

@@ -32,10 +32,10 @@ async function main () {
             await fs.promises.appendFile(out, `# ${optionName}\n`)
             break
           case 'shortDescription':
-            await fs.promises.appendFile(out, `${optionData.description}`)
+            await fs.promises.appendFile(out, `${optionData.description}\n`)
             break
           case 'extendedDescription':
-            await fs.promises.appendFile(out, `${optionData.extendedDescription}`)
+            await fs.promises.appendFile(out, `${optionData.extendedDescription}\n`)
             break
           case 'references':
             await fs.promises.appendFile(out, `${optionData.refLinks.map(ref => `- [${ref.title}](${ref.link})`).join('\n')}`)

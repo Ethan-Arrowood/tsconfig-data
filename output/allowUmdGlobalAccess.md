@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Allow accessing UMD globals from modules.
+
 ---
 
 <!-- extendedDescription -->
 `allowUMDGlobalAccess` enables referencing of Universal Module Definition (UMD) global declarations like `export as namespace foo` from anywhere in your project. After creating this global module, any other script in the project will have access to it.
+
 ---
 
 <!-- references -->

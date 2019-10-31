@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Enable stricter checking of of the bind, call, and apply methods on functions.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

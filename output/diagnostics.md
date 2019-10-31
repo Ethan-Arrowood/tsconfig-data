@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Show diagnostic information.
+
 ---
 
 <!-- extendedDescription -->
 Not much information exists for this option. It should output detailed information about the compiler and the build output.
+
 ---
 
 <!-- references -->

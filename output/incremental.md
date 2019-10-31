@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Enable incremental compilation by reading/writing information from prior compilations to a file on disk. This file is controlled by the --tsBuildInfoFile flag.
+
 ---
 
 <!-- extendedDescription -->
 Introduced in TypeScript 3.4, the `--incremental` property saves information about the project graph from the previous compilation and uses that information to detect the least costly way to type-check and emit changes in the project. It will read/write information from a `.tsbuildinfo` file in whatever the output directory is. The `.tsbuildinfo` file can be specified using the `--tsBuildInfoFile` flag.
+
 ---
 
 <!-- references -->

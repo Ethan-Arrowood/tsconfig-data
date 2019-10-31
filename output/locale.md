@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 The locale to use to show error messages, e.g. en-us. <br/>Possible values are:  <br/>► English (US): en <br/>► Czech: cs <br/>► German: de <br/>► Spanish: es <br/>► French: fr <br/>► Italian: it <br/>► Japanese: ja <br/>► Korean: ko <br/>► Polish: pl <br/>► Portuguese(Brazil): pt-BR <br/>► Russian: ru <br/>► Turkish: tr <br/>► Simplified Chinese: zh-CN  <br/>► Traditional Chinese: zh-TW
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

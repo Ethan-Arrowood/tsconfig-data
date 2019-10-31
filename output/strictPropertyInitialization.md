@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Ensure non-undefined class properties are initialized in the constructor. This option requires --strictNullChecks be enabled in order to take effect.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

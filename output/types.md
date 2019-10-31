@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 List of names of type definitions to include. See [@types, --typeRoots and --types](./tsconfig.json.md#types-typeroots-and-types) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

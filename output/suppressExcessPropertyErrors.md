@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Suppress excess property checks for object literals.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

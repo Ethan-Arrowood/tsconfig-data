@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Parse in strict mode and emit "use strict" for each source file
+
 ---
 
 <!-- extendedDescription -->
 With this option enabled, all TypeScript code in the project will be parsed in ES5 strict mode, and the `"use strict"` statement will be placed at the top of all compiled output code. This option is automatically enabled when using the compiler option `--strict`. Read more on ES5 strict mode in the references section.
+
 ---
 
 <!-- references -->

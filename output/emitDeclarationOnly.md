@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Only emit '.d.ts' declaration files.
+
 ---
 
 <!-- extendedDescription -->
 This option will not emit JavaScript files from the build output. It will only emit `.d.ts` type definition files. This option pairs well with alternate compilation configurations such as a Babel 7.
+
 ---
 
 <!-- references -->

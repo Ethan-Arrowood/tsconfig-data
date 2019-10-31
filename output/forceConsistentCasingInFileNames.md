@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Disallow inconsistently-cased references to the same file.
+
 ---
 
 <!-- extendedDescription -->
 Thie option will detect case-sensitive import issues at compile time. According to a blog post import statements are case-insensitive on Mac and Windows, but are case-sensitive on Linux. This inconsistency can cause issues when using speficic libraries.
+
 ---
 
 <!-- references -->

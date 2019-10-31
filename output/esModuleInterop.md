@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Emit __importStar and __importDefault helpers for runtime babel ecosystem compatibility and enable --allowSyntheticDefaultImports for typesystem compatibility.
+
 ---
 
 <!-- extendedDescription -->
 The `--esModuleInterop` flag enables more babel like import styles. Technically, it updates CommonJS/AMD/UMD modules emit to syntehsize namespace records based on the presence of an __esModule indicator. This will slightly change how modules are imported. Firstly, namespace imports `import * as foo from 'foo'` is now uncallable (i.e. `foo()` is considered invalid). Secondly, default imports are now allowed (`import fs from 'fs'`) and will work as expected. Keep in mind that if the compiler option `module` is set to `es2015` you'll also need to enable the `allowSyntheticDefaultImports` option aswell.
+
 ---
 
 <!-- references -->

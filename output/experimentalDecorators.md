@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Enables experimental support for ES decorators.
+
 ---
 
 <!-- extendedDescription -->
 This flag will enable the use of the decorators within your TypeScript project. The Decorators Proposal is currently at Stage 2, but is supported by TypeScript. Learn more about using decorators in the resources below. The `target` version must be atleast `ES5`.
+
 ---
 
 <!-- references -->

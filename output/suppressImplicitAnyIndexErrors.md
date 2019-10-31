@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Suppress --noImplicitAny errors for indexing objects lacking index signatures. See [issue #1232](https://github.com/Microsoft/TypeScript/issues/1232#issuecomment-64510362) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

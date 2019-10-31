@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 List of path mapping entries for module names to locations relative to the baseUrl. See [Module Resolution documentation](./Module Resolution.md#path-mapping) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

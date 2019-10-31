@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Rather than actually execute a build with the other input options and config files, show the final implied config file in the output.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

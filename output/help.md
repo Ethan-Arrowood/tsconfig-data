@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Print help message.
+
 ---
 
 <!-- extendedDescription -->
 This is a command line interface only option. It will display a shorter list of available compiler options with their shortened descriptions.
+
 ---
 
 <!-- references -->

@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Show verbose diagnostic information
+
 ---
 
 <!-- extendedDescription -->
 This option displays various diagnostic information about a build including timings, memory used, and other metrics such as the number of files, symbols, and types.
+
 ---
 
 <!-- references -->

@@ -5,9 +5,11 @@
 
 <!-- shortDescription -->
 Do not erase const enum declarations in generated code. See [const enums documentation](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#94-constant-enum-declarations) for more details.
+
 ---
 
 <!-- extendedDescription -->
+
 
 ---
 

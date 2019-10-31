@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Output directory for generated declaration files.
+
 ---
 
 <!-- extendedDescription -->
 Specify a directory output for declaration (.d.ts) files. This must be used in conjunction with `declaration`. It will override the output directory specified by `outDir`
+
 ---
 
 <!-- references -->

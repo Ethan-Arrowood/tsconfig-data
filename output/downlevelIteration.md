@@ -5,10 +5,12 @@
 
 <!-- shortDescription -->
 Provide full support for iterables in for..of, spread and destructuring when targeting ES5 or ES3.
+
 ---
 
 <!-- extendedDescription -->
 The `downlevelIteration` flag enables full support for generators and the Iterator protocol for ES3 and ES5 projects. Without this option, generators and the Iterator protocol were only supported if the project `target` was ES6/ES2015 or later. This requires a native `Symbol.iterator` or `Symbol.iterator` shim at runtime for any non-array values. The second reference link _Downlevel Iteration for ES3/ES5 in TypeScript_ provides a wonderful breakdown of this property and exactly how it transforms your TypeScript code.
+
 ---
 
 <!-- references -->
