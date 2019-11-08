@@ -1,18 +1,23 @@
 <!-- Important! Do not modify comment blocks. They are necessary for the transformer to work properly -->
 
-<!-- title -->
+<!-- start:title -->
+<!-- end:title -->
 
-<!-- shortDescription -->
-
----
-
-<!-- extendedDescription -->
+<!-- start:shortDescription -->
+<!-- end:shortDescription -->
 
 ---
 
-<!-- references -->
+<!-- start:extendedDescription -->
+<!-- end:extendedDescription -->
 
 ---
 
-<!-- footer -->
+<!-- start:references -->
+<!-- end:references -->
+
+---
+
+<!-- start:footer -->
 The data on this page is available as a JSON object. Edits can be made in either JSON or here in Markdown.
+<!-- end:footer -->

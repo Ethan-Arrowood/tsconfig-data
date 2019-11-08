@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "transformToMD": "ts-node scripts/transformToMD.ts"
+    "transformToMD": "ts-node scripts/transformToMD.ts",
+    "transformToJSON": "ts-node scripts/transformToJSON.ts"
   },
   "keywords": [],
   "author": "",
