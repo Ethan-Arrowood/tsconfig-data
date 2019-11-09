@@ -13,7 +13,7 @@ type DataObj = {
   [k: string]: unknown
 }
 
-function process(entry: [string, DataObj], templateLineByLine: string[]) {
+export default function process(entry: [string, DataObj], templateLineByLine: string[]) {
   const [optionName, optionData] = entry
   const pattern = new RegExp(/<!-- (start|end):(title|shortDescription|extendedDescription|references|footer) -->/)
   let output = ''
