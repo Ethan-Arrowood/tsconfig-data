@@ -12,7 +12,7 @@ type ProcessedObj = {
   [k: string]: unknown
 }
 
-function proccessFileContents(file: string[]) {
+export default function proccessFileContents(file: string[]) {
   const pattern = new RegExp(/<!-- (start|end):(title|shortDescription|extendedDescription|references|footer) -->/)
   const obj: ProcessedObj = {
      title: '',

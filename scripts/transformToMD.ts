@@ -1,69 +1,58 @@
-import data from '../tsconfig-data.json'
+// import data from '../tsconfig-data.json'
+import data from './dummyData.json'
 import path from 'path'
 import fs from 'fs'
 
-const outDir = path.resolve('./output')
+type DataObj = {
+  shortDescription: string,
+  extendedDescription: string,
+  references: {
+    title: string,
+    link: string
+  }[],
+  [k: string]: unknown
+}
 
-async function main () {
-  const templateReadFile = await fs.promises.readFile(path.join(__dirname, 'template.md'), 'utf8')
-  const templateLineByLine = templateReadFile.split('\n')
+function process(entry: [string, DataObj], templateLineByLine: string[]) {
+  const [optionName, optionData] = entry
+  const pattern = new RegExp(/<!-- (start|end):(title|shortDescription|extendedDescription|references|footer) -->/)
+  let output = ''
 
-  try {
-    await fs.promises.mkdir(outDir)
-  } catch (err) {
-    console.log('Output directory already exists -- overwriting')
-  }
+  for (const line of templateLineByLine) {
+    output += line + '\n'
 
-  const regex = new RegExp(/\<\!\-\- (\w+) \-\-\>/)
-
-  for await (let entry of Object.entries(data)) {
-    const [optionName, optionData] = entry
-
-    const out = await fs.promises.open(path.join(outDir, `${optionName}.md`), 'w')
-
-    for await (const line of templateLineByLine) {
-      await fs.promises.appendFile(out, line + `\n`)
-
-      // match comment lines for templating
-      const match = line.match(regex)
-      if (match && match.length > 0) {
-        switch(match[1]) {
-          case 'title':
-            await fs.promises.appendFile(out, `# ${optionName}\n`)
-            break
-          case 'shortDescription':
-            await fs.promises.appendFile(out, `${optionData.description}\n`)
-            break
-          case 'extendedDescription':
-            await fs.promises.appendFile(out, `${optionData.extendedDescription}\n`)
-            break
-          case 'references':
-            await fs.promises.appendFile(out, `## References\n${optionData.refLinks.map(ref => `- [${ref.title}](${ref.link})`).join('\n')}`)
-            break
-          default:
-            break
-        }
+    const match = line.match(pattern)
+    if (match && match.length > 0 && match[1] === 'start') {
+      switch(match[2]) {
+        case 'title':
+          output += `# ${optionName}\n`
+          break
+        case 'shortDescription':
+          output += `${optionData.shortDescription}\n`
+          break
+        case 'extendedDescription':
+          output += `${optionData.extendedDescription}\n`
+          break
+        case 'references':
+          output += `## References\n${optionData.references.map(ref => `- [${ref.title}](${ref.link})`).join('\n')}`
+          break
+        default:
+          break
       }
     }
+  }
 
-//     const outData = `
-// # ${optionName}
+  return output
+}
 
-// ${optionData.description}
-
-// ---
-
-// ${optionData.extendedDescription}
-
-// ---
-
-// ${optionData.refLinks.map(ref => `- [${ref.title}](${ref.link})`).join('\n')}
-
-// This page was automatically generated.`
-
-    // await fs.promises.writeFile(path.join(outDir, `${optionName}.md`), outData)
+async function main2() {
+  const templateReadFile = await fs.promises.readFile(path.join(__dirname, 'template.md'), 'utf8')
+  const templateLineByLine = templateReadFile.split('\n')
+  for await (let entry of Object.entries(data)) { 
+    const entryOut = process(entry, templateLineByLine)
+    await fs.promises.writeFile(path.join(__dirname, `${entry[0]}.md`), entryOut, 'utf8')
   }
 }
 
-main()
+main2()
 
