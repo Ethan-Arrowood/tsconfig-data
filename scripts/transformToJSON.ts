@@ -47,10 +47,22 @@ function proccessFileContents(file: string[]) {
 
 async function main() {
   const readFile = await fs.promises.readFile(path.join(__dirname, 'dummy.md'), 'utf8')
+  const existingData = require("./dummyData.json")
+
   const lineByLine = readFile.split(/(\n)/)
-  
+
   const output = proccessFileContents(lineByLine)
-  console.log(output)
+
+  for (const prop in output) {
+    if ( prop !== 'title') {
+      existingData[output.title][prop] = output[prop]
+    }
+  }
+
+  // console.log(output)
+  console.log(existingData)
+
+  const writeFile = await fs.promises.writeFile(path.join(__dirname, "dummyData.json"), JSON.stringify(existingData, null, 2), 'utf8')
 }
 
 main()
